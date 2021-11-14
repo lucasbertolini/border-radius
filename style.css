@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #686475;
+}
+main {
+  text-align: center;
+  margin: 40px 0;
+}
+.borderRadius {
+  margin: 10px 13em;
+}
+.borderRadius input {
+  height: 40px;
+  width: 40px;
+  margin: 10px 150px 0 140px;
+}
+.borda {
+  border-radius: 20px;
+  margin: 0 auto;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.quadrado p {
+  background: grey;
+  height: 300px;
+  width: 400px;
+}
+@media screen and (max-width: 1100px) {
+  .borderRadius input {
+    margin: 10px auto;
+  }
+  .bordarRadius {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  main {
+    margin: 0;
+    padding: 10px 0;
+    height: 100%;
+    width: 100%;
+  }
+  .borda {
+    margin: 0;
+  }
+  .quadrado p {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 5em;
+  }
+}

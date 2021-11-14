@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <title>Calculadora Border Radius </title>
+</head>
+<body>
+    <main>
+        <input type="submit" value="Resetar" onclick="resetar()">
+        <input type="submit" value="Aleatório" onclick="aleatorio()">
+        <div class="borderRadius">
+            <input type="number" value="20" id="top-left" onchange="atualizar()">
+            <input type="number" value="20" id="top-right" onchange="atualizar()">
+            <div class="quadrado">
+                <p id="borda" class="borda"></p>
+            </div>
+            <input type="number" value="20" id="bottom-left" onchange="atualizar()">
+            <input type="number" value="20" id="bottom-right" onchange="atualizar()">
+            
+        </div>
+        <div class="text">
+            <textarea rows="10" cols="50" id="texto"></textarea>
+           
+        </div>
+    </main>
+    
+</body>
+</html>
